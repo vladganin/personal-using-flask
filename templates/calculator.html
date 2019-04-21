@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Calculator - by Ganin</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='spectre.min.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='spectre-exp.min.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='spectre-icons.min.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='custom.css') }}">
+<body>
+<div class="container text-center text-primary calculator_btn">
+  <div class="columns diviser">
+    <div class="col-12">{{ arg2 arg4 }}</div>
+  </div>
+  <form action="" method="POST">
+    <div class="btn-group btn-group-block col-3">
+      <button class="btn btn-lg" type="submit" name="number" value={{7}}>7</button>
+      <button class="btn btn-lg" type="submit" name="number" value={{8}}>8</button>
+      <button class="btn btn-lg" type="submit" name="number" value="{{9}}">9</button>
+      <button class="btn btn-lg" type="submit" name="number" value="{{SUBTRACT}}">-</button>
+    </div>
+  </form> 
+  <form action="" method="POST">
+  <div class="btn-group btn-group-block col-3">
+    <button class="btn btn-lg" type="submit" name="number" value={{4}}>4</button>
+    <button class="btn btn-lg" type="submit" name="number" value={{5}}>5</button>
+    <button class="btn btn-lg" type="submit" name="number" value={{6}}>6</button>
+    <button class="btn btn-lg" type="submit" name="number" value={{ADD}}>+</button>
+  </div> 
+  </form>
+  <form action="" method="POST">
+  <div class="btn-group btn-group-block col-3">
+    <button class="btn btn-lg" type="submit" name="number" value={{1}}>1</button>
+    <button class="btn btn-lg" type="submit" name="number" value={{2}}>2</button>
+    <button class="btn btn-lg" type="submit" name="number" value={{3}}>3</button>
+    <button class="btn btn-lg" type="submit" name="number" value={{DELETE}}>C</button>
+  </div> 
+  </form>
+  <form action="" method="POST">
+  <div class="btn-group btn-group-block col-3">
+    <button class="btn btn-lg" type="submit" name="number" value={{0}}>0</button>
+    <button class="btn btn-lg" type="submit" name="number" value={{DIVIDE}}>/</button>
+    <button class="btn btn-lg" type="submit" name="number" value={{MULTIPLY}}>*</button>
+    <button class="btn btn-lg" type="submit" name="number" value={{ENTER}}>=</button>
+  </div> 
+  <div class="columns diviser_app">
+    <div class="col-12 diviser_app"></div>
+  </div>
+	<div class="footer col-12 footer_calculator m-200">
+		<div class="btn-primary loading"></div>
+		<div class="popover popover-top">
+			<h3>Coded with Python, Flask, Spectre<br>by Vladyslav Ganin</h3>
+			<div class="popover-container text-center">
+				<div class="card">
+      				<div class="card-header">
+      					<h6>Send me a message on Linkedin</h6>
+      				</div>
+      				<div class="card-footer">
+      					<button class="btn btn-lg"><a href="https://pl.linkedin.com/in/vladyslavganin">LinkedIn</a></button>
+      				</div>
+      			</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

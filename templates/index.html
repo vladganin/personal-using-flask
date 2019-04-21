@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Site - Ganin</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='spectre.min.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='spectre-exp.min.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='spectre-icons.min.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='custom.css') }}">
+<body>
+<div class="container text-center text-primary ">
+	<div class="columns diviser">
+    	<div class="column col-12 text-large">Ganin's apps
+      		<div class="columns">
+        		<div class="column col-4">
+        			<a href="calculator"><button class="btn btn-lg" type="submit" method="POST" value='calculator_app'>Calculator</button></a>
+        		</div>
+            <div class="column col-4">
+              <a href="backgrounds_app"><button class="btn btn-lg" type="submit" method="POST" value='call_backgrounds_app'>Backgrounds App</button></a>
+            </div>
+        		<div class="column col-4">
+        			<a href="/in_deployment"><button class="btn" action="submit" method="post" value="call_2nd_app">2nd app</button></a>
+        		</div>
+      		</div>
+    	</div>
+	</div>
+	<div class="footer col-12">
+		<div class="btn-primary loading"></div>
+		<div class="popover popover-top">
+			<h3>Coded with Python, Flask, Spectre<br>by Vladyslav Ganin</h3>
+			<div class="popover-container text-center">
+				<div class="card">
+      				<div class="card-header">
+      					<h6>Send me a message on Linkedin</h6>
+      				</div>
+      				<div class="card-footer">
+      					<button class="btn btn-lg"><a href="https://pl.linkedin.com/in/vladyslavganin">LinkedIn</a></button>
+      				</div>
+      			</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

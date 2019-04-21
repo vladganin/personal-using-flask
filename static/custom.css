@@ -1,0 +1,44 @@
+
+.footer {
+	padding: 5vh;
+	margin-top: 7vh;
+}
+
+.footer .loading {
+	margin-bottom: 2.5vh;
+}
+
+h3 {
+	font-size: 0.7em;
+}
+
+#load {
+	padding: 5vh;
+}
+
+.popover-container {
+	font-size: 0.8em;
+}
+
+
+# Calculator HTML styling
+body {
+	display: border-box;
+}
+
+.calculator_btn .btn {
+	height: 3em;
+	width: 150px;
+}
+
+.diviser {
+	padding-top: 1.4%;
+}
+
+.calculator_btn .btn-group {
+	margin-left: auto;
+	margin-right: auto
+}
+
+
+
